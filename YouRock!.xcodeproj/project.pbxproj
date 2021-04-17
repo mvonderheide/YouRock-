@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		84E89920262A642F00FD69FA /* YouRock_App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E8991F262A642F00FD69FA /* YouRock_App.swift */; };
+		84E89922262A642F00FD69FA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E89921262A642F00FD69FA /* ContentView.swift */; };
+		84E89924262A643200FD69FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84E89923262A643200FD69FA /* Assets.xcassets */; };
+		84E89927262A643200FD69FA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84E89926262A643200FD69FA /* Preview Assets.xcassets */; };
+		84E89932262A643200FD69FA /* YouRock_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E89931262A643200FD69FA /* YouRock_Tests.swift */; };
+		84E8993D262A643300FD69FA /* YouRock_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E8993C262A643300FD69FA /* YouRock_UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		84E8992E262A643200FD69FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84E89914262A642F00FD69FA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84E8991B262A642F00FD69FA;
+			remoteInfo = "YouRock!";
+		};
+		84E89939262A643300FD69FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84E89914262A642F00FD69FA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84E8991B262A642F00FD69FA;
+			remoteInfo = "YouRock!";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		84E8991C262A642F00FD69FA /* YouRock!.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "YouRock!.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		84E8991F262A642F00FD69FA /* YouRock_App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YouRock_App.swift; sourceTree = "<group>"; };
+		84E89921262A642F00FD69FA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		84E89923262A643200FD69FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84E89926262A643200FD69FA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		84E89928262A643200FD69FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84E8992D262A643200FD69FA /* YouRock!Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "YouRock!Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		84E89931262A643200FD69FA /* YouRock_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YouRock_Tests.swift; sourceTree = "<group>"; };
+		84E89933262A643200FD69FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84E89938262A643300FD69FA /* YouRock!UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "YouRock!UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		84E8993C262A643300FD69FA /* YouRock_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YouRock_UITests.swift; sourceTree = "<group>"; };
+		84E8993E262A643300FD69FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84E89919262A642F00FD69FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84E8992A262A643200FD69FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84E89935262A643300FD69FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84E89913262A642F00FD69FA = {
+			isa = PBXGroup;
+			children = (
+				84E8991E262A642F00FD69FA /* YouRock! */,
+				84E89930262A643200FD69FA /* YouRock!Tests */,
+				84E8993B262A643300FD69FA /* YouRock!UITests */,
+				84E8991D262A642F00FD69FA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		84E8991D262A642F00FD69FA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84E8991C262A642F00FD69FA /* YouRock!.app */,
+				84E8992D262A643200FD69FA /* YouRock!Tests.xctest */,
+				84E89938262A643300FD69FA /* YouRock!UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84E8991E262A642F00FD69FA /* YouRock! */ = {
+			isa = PBXGroup;
+			children = (
+				84E8991F262A642F00FD69FA /* YouRock_App.swift */,
+				84E89921262A642F00FD69FA /* ContentView.swift */,
+				84E89923262A643200FD69FA /* Assets.xcassets */,
+				84E89928262A643200FD69FA /* Info.plist */,
+				84E89925262A643200FD69FA /* Preview Content */,
+			);
+			path = "YouRock!";
+			sourceTree = "<group>";
+		};
+		84E89925262A643200FD69FA /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				84E89926262A643200FD69FA /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		84E89930262A643200FD69FA /* YouRock!Tests */ = {
+			isa = PBXGroup;
+			children = (
+				84E89931262A643200FD69FA /* YouRock_Tests.swift */,
+				84E89933262A643200FD69FA /* Info.plist */,
+			);
+			path = "YouRock!Tests";
+			sourceTree = "<group>";
+		};
+		84E8993B262A643300FD69FA /* YouRock!UITests */ = {
+			isa = PBXGroup;
+			children = (
+				84E8993C262A643300FD69FA /* YouRock_UITests.swift */,
+				84E8993E262A643300FD69FA /* Info.plist */,
+			);
+			path = "YouRock!UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84E8991B262A642F00FD69FA /* YouRock! */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84E89941262A643300FD69FA /* Build configuration list for PBXNativeTarget "YouRock!" */;
+			buildPhases = (
+				84E89918262A642F00FD69FA /* Sources */,
+				84E89919262A642F00FD69FA /* Frameworks */,
+				84E8991A262A642F00FD69FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "YouRock!";
+			productName = "YouRock!";
+			productReference = 84E8991C262A642F00FD69FA /* YouRock!.app */;
+			productType = "com.apple.product-type.application";
+		};
+		84E8992C262A643200FD69FA /* YouRock!Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84E89944262A643300FD69FA /* Build configuration list for PBXNativeTarget "YouRock!Tests" */;
+			buildPhases = (
+				84E89929262A643200FD69FA /* Sources */,
+				84E8992A262A643200FD69FA /* Frameworks */,
+				84E8992B262A643200FD69FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84E8992F262A643200FD69FA /* PBXTargetDependency */,
+			);
+			name = "YouRock!Tests";
+			productName = "YouRock!Tests";
+			productReference = 84E8992D262A643200FD69FA /* YouRock!Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		84E89937262A643300FD69FA /* YouRock!UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84E89947262A643300FD69FA /* Build configuration list for PBXNativeTarget "YouRock!UITests" */;
+			buildPhases = (
+				84E89934262A643300FD69FA /* Sources */,
+				84E89935262A643300FD69FA /* Frameworks */,
+				84E89936262A643300FD69FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84E8993A262A643300FD69FA /* PBXTargetDependency */,
+			);
+			name = "YouRock!UITests";
+			productName = "YouRock!UITests";
+			productReference = 84E89938262A643300FD69FA /* YouRock!UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84E89914262A642F00FD69FA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					84E8991B262A642F00FD69FA = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					84E8992C262A643200FD69FA = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 84E8991B262A642F00FD69FA;
+					};
+					84E89937262A643300FD69FA = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 84E8991B262A642F00FD69FA;
+					};
+				};
+			};
+			buildConfigurationList = 84E89917262A642F00FD69FA /* Build configuration list for PBXProject "YouRock!" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84E89913262A642F00FD69FA;
+			productRefGroup = 84E8991D262A642F00FD69FA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84E8991B262A642F00FD69FA /* YouRock! */,
+				84E8992C262A643200FD69FA /* YouRock!Tests */,
+				84E89937262A643300FD69FA /* YouRock!UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84E8991A262A642F00FD69FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84E89927262A643200FD69FA /* Preview Assets.xcassets in Resources */,
+				84E89924262A643200FD69FA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84E8992B262A643200FD69FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84E89936262A643300FD69FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84E89918262A642F00FD69FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84E89922262A642F00FD69FA /* ContentView.swift in Sources */,
+				84E89920262A642F00FD69FA /* YouRock_App.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84E89929262A643200FD69FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84E89932262A643200FD69FA /* YouRock_Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84E89934262A643300FD69FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84E8993D262A643300FD69FA /* YouRock_UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		84E8992F262A643200FD69FA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84E8991B262A642F00FD69FA /* YouRock! */;
+			targetProxy = 84E8992E262A643200FD69FA /* PBXContainerItemProxy */;
+		};
+		84E8993A262A643300FD69FA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84E8991B262A642F00FD69FA /* YouRock! */;
+			targetProxy = 84E89939262A643300FD69FA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		84E8993F262A643300FD69FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		84E89940262A643300FD69FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84E89942262A643300FD69FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"YouRock!/Preview Content\"";
+				DEVELOPMENT_TEAM = 3RWDQTD9F7;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "YouRock!/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vonderheide.main.YouRock-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		84E89943262A643300FD69FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"YouRock!/Preview Content\"";
+				DEVELOPMENT_TEAM = 3RWDQTD9F7;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "YouRock!/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vonderheide.main.YouRock-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		84E89945262A643300FD69FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3RWDQTD9F7;
+				INFOPLIST_FILE = "YouRock!Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vonderheide.main.YouRock-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YouRock!.app/YouRock!";
+			};
+			name = Debug;
+		};
+		84E89946262A643300FD69FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3RWDQTD9F7;
+				INFOPLIST_FILE = "YouRock!Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vonderheide.main.YouRock-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YouRock!.app/YouRock!";
+			};
+			name = Release;
+		};
+		84E89948262A643300FD69FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3RWDQTD9F7;
+				INFOPLIST_FILE = "YouRock!UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vonderheide.main.YouRock-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "YouRock!";
+			};
+			name = Debug;
+		};
+		84E89949262A643300FD69FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3RWDQTD9F7;
+				INFOPLIST_FILE = "YouRock!UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vonderheide.main.YouRock-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "YouRock!";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84E89917262A642F00FD69FA /* Build configuration list for PBXProject "YouRock!" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84E8993F262A643300FD69FA /* Debug */,
+				84E89940262A643300FD69FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84E89941262A643300FD69FA /* Build configuration list for PBXNativeTarget "YouRock!" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84E89942262A643300FD69FA /* Debug */,
+				84E89943262A643300FD69FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84E89944262A643300FD69FA /* Build configuration list for PBXNativeTarget "YouRock!Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84E89945262A643300FD69FA /* Debug */,
+				84E89946262A643300FD69FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84E89947262A643300FD69FA /* Build configuration list for PBXNativeTarget "YouRock!UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84E89948262A643300FD69FA /* Debug */,
+				84E89949262A643300FD69FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84E89914262A642F00FD69FA /* Project object */;
+}
