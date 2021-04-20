@@ -9,12 +9,30 @@ import SwiftUI
 
 struct Data1: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        NavigationView {
+            VStack {
+                Text("1st Period Rocks!")
+                
+                HStack{
+                    NavigationLink(
+                        destination: Period1(),
+                        label: {
+                            Text("Start Over")
+                        })
+                    
+                }
+                .padding()
+                
+                
+            }
+        }
     }
-}
-
-struct Data1_Previews: PreviewProvider {
-    static var previews: some View {
-        Data1()
+    
+    
+    
+    struct WelcomeScreen_Previews: PreviewProvider {
+        static var previews: some View {
+            Data1()
+        }
     }
 }
