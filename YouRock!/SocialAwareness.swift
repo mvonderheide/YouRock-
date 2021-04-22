@@ -6,7 +6,18 @@
 //
 
 import SwiftUI
-
+/*
+ NavigationView
+    Image miniLogoBar
+    VStack
+        Text "Social Awareness"
+        NavigationLink
+            destination:
+        //Stretch - Add a forEach loop for categories
+        //Stretch - Pull the name of the category page (SocialAwareness.swift and its name
+        
+        
+ */
 struct SocialAwareness: View {
     var body: some View {
         NavigationView {

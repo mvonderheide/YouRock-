@@ -6,7 +6,15 @@
 //
 
 import SwiftUI
-
+/*
+ NavigationView
+    Image miniLogoBar
+    VStack
+        Text "1st Period Rocks"
+        Image classData
+        //Stretch - forEach to go through all students and show text of names and number of rocks
+        
+ */
 struct Data1: View {
     var body: some View {
         NavigationView {

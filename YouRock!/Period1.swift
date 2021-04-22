@@ -6,7 +6,20 @@
 //
 
 import SwiftUI
-
+/*
+ NavigationView
+    Image miniLogoBar
+    VStack
+        Text class.period
+        Text class.className
+        Text "Choose a Student"
+        //Replace with a drop down menu
+        NavigationLink
+            destination: ChooseCategory
+            label: "Dimitri Villalobos"
+        Image rockWall
+        
+ */
 struct Period1: View {
     var body: some View {
         NavigationView {
